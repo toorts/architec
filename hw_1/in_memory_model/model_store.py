@@ -25,3 +25,4 @@ class ModelStore(IModelChanger):
 
     def notify_change(data: IModelChanger) -> None:
         pass
+
