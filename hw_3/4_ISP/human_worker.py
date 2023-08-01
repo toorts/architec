@@ -1,8 +1,8 @@
-from i_eating import IEating
-from i_working import IWorking
+from eat_interface import EatInterface
+from work_interface import WorkInterface
 
 
-class HumanWorker(IEating, IWorking):
+class HumanWorker(EatInterface, WorkInterface):
     def work(self) -> None:
         print('Человек работает')
 

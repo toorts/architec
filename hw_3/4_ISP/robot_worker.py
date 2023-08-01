@@ -1,6 +1,6 @@
-from i_working import IWorking
+from work_interface import WorkInterface
 
 
-class RobotWorker(IWorking):
+class RobotWorker(WorkInterface):
     def work(self) -> None:
         print('Робот работает')

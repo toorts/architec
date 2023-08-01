@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class IEating(ABC):
+class EatInterface(ABC):
     @abstractmethod
     def eat(self):
         pass
